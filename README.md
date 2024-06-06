@@ -1,6 +1,6 @@
 # muos-artwork
 
-MuOS (https://muos.dev] is a great OS for the supported handheld retro emulation consoles. It is as fast as the fastest systems yet customizable to your needs. But it lags behind heavuer systems such Knulli when it comes to artwork. In this project, I share a couple of ressources that I use for myself. Nothing is super-polished and it comes with no warranty whatsoever. But I hope it can prove useful for other people. //If ROMs are mentioned here below, note as usual that you should own the right to use your ROM files. Piracy is a felony ;-)//
+MuOS (https://muos.dev] is a great OS for the supported handheld retro emulation consoles. It is as fast as the fastest systems yet customizable to your needs. But it lags behind heavuer systems such Knulli when it comes to artwork. In this project, I share a couple of ressources that I use for myself. Nothing is super-polished and it comes with no warranty whatsoever. But I hope it can prove useful for other people. //If ROMs are mentioned here below, note as usual that you should own the right to use your ROM files.//
 
 ## Building artwork for 640x480 devices
 
