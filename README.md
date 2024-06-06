@@ -2,9 +2,22 @@
 
 MuOS (https://muos.dev] is a great OS for the supported handheld retro emulation consoles. It is as fast as the fastest systems yet customizable to your needs. But it lags behind heavuer systems such Knulli when it comes to artwork. In this project, I share a couple of ressources that I use for myself. Nothing is super-polished and it comes with no warranty whatsoever. But I hope it can prove useful for other people. //If ROMs are mentioned here below, note as usual that you should own the right to use your ROM files.//
 
-## Building artwork for 640x480 devices
+## Building Games artwork catalogue
 
 I want the MuOS text list of games gently fade under boxart. So alpha channel transarency is required. Skraper doesn't support that so let me use Skyscraper. It is CLI and should install flawlessly on MacOS or Linux. On Windows, unike the docuentation, I'd recommend to install a Linux distro thanks to the Windows 11 WSL and within the emulated Linux, install Skyscraper as on any Linux system. I'm using the following fork : https://github.com/Gemba/skyscraper
+
+Workflow :
+
+1. k;kndcc
+2. n;qsfaz
+
+
+## Producing Systems artwork
+
+
+## Building artwork for 640x480 devices
+
+
 
 ### Scraping all the games in system subfolders
 
