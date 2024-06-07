@@ -6,7 +6,7 @@ The following sections are dedicated to :
 
 1. [Scrape games with Skyscraper](https://github.com/gerpy/muos-artwork/tree/master/games-scraping)
 2. [Copy game text and artwork to a MuOS catalogue](https://github.com/gerpy/muos-artwork/tree/master/build-catalogue)
-3. [Fix system logos and pictures to display correctly on any theme](https://github.com/gerpy/muos-artwork/tree/master/system-scraping)
+3. [Fix system logos and pictures to display correctly on any theme](https://github.com/gerpy/muos-artwork/tree/master/system-outline)
 
 Thanks to people on the [MuOS Discord](https://discord.gg/USS5ybVtDz) and @joyrider3774 in particular.
 
