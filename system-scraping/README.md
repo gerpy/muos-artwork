@@ -28,7 +28,7 @@ The script calculates the average color of an image and applies a surrounding sh
 
 Additional features are :
 - Rotate landscape logos if desired (change the adaquate variable at the begining of the script)
-- Resize with a pixel number, and not witdh or height so as to balance long and square logos (change the adaquate variable at the begining of the script). A pixel number of 19400 is nice for logos since even long ones won't go over the 396px height of the visible part of the screen on a 640x480 device running MuOS.
+- Trim and resize with a pixel number, and not witdh or height so as to balance long and square logos (change the adaquate variable at the begining of the script). A pixel number of 19400 is nice for logos since even long ones won't go over the 396px height of the visible part of the screen on a 640x480 device running MuOS.
 - Adjust the radius of the shadow in proportion of the image size (change the adaquate variable at the begining of the script)
 
 The script accepts one parameter : 
