@@ -6,12 +6,12 @@
 # Author : Tokumeino (thanks to @joyrider3774 at Discord for the help with convert)
 
 radiusfactor=240	# 1/th of the image size
-rotate="false"		# Rotate if landscape
-outputsize="46200"	# Number of pixels
-					# A very wide logo sould not be wider than 396x50 ~ 19400pix
+rotate="true"		# Rotate if landscape
+outputsize="18000"	# Number of pixels
+					# A very wide logo should not be wider than 396x50 ~ 19400pix
 					# Resizing in MPIX permits that
 					#	every logo is the same aparent size (surface)
-					# 19400 is OK for logos
+					# 19400 is OK for logos, 18000 to keep a small margin
 					# 46200 is OK for pictures
 					# 
 #color="black"		# With no color
@@ -63,7 +63,6 @@ find . -mindepth 1 -maxdepth 1 -name "*.png" -type f | while read origpng; do
 	fi
 	echo "- Shadow color : $shadowColor"
 	
-	rotate="false"
 	w=$(identify -format '%w' "$origpng")
 	h=$(identify -format '%h' "$origpng")
 	p=$(( h * w )) ; size=$(echo "sqrt($p)" | bc)
@@ -75,7 +74,7 @@ find . -mindepth 1 -maxdepth 1 -name "*.png" -type f | while read origpng; do
 	radius=$(( size / $radiusfactor + 1 ))
 	echo "- Shadow radius = $radius"
 	
-	if [ "$landscape" = "true" -a "$rotate" = "true" ] ; then
+	if [ $landscape = "true" -a $rotate = "true" ] ; then
 		angle="90"
 	else
 		angle="0"
