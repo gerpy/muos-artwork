@@ -1,4 +1,8 @@
-The PNG files in this directory are the masks. They must be in ~/.skyscraper/resources/ or a subfolder.
+# Transparency gradients in 640x480 masks
+
+These masks are 640x480. The gradient starts at `x=320` (middle) and ends at `x=400` : 100% transparent before 320 and 100% plain after 400. The middle of the gradient is at `x=360`.
+
+The PNG files must sit in your `~/.skyscraper/ressources` folder. You may also use subfolders, but then you should adapt the XML mix.
 
   - `muos-gradient-soft.png` is a greyscale gradient without any king of dithering. It is versy soft but may lead to banding artifacts
   - `muos-gradient-dither.png` is the same as the previous one, but with Photoshop's super mild dithering 
@@ -9,4 +13,3 @@ The PNG files in this directory are the masks. They must be in ~/.skyscraper/res
   - `muos-grain-high.png` adresses banding with a medium intensity grain 
   - `muos-grain-mid.png` adresses banding with more visible grain
 
-The masks are 640x480. The gradient starts at `x=320` (middle) and ends at `x=400` : 100% transparent before 320 and 100% plain after 400. The middle of the gradient is at `x=360`.
