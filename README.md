@@ -9,3 +9,10 @@ The following sections are dedicated to :
 3. [Fix system logos and pictures to display correctly on any theme](https://github.com/gerpy/muos-artwork/tree/master/system-scraping)
 
 Thanks to people on ther [MuOS Discord](https://discord.gg/USS5ybVtDz).
+
+![](https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/shadow-invert/Atari%202600_wor_1.png)
+![](https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/mslug.png)
+
+
+
+
