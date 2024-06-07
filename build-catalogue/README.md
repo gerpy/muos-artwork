@@ -1,16 +1,11 @@
 # Build a MuOS catalogue
 
-These scripts are written in Windows Powershell. They can be placed anywhere : the working directories are passed as parameters. It requires that you have already scraped artwork in 
+## Prerequisite
 
-
-These scripts are written in Windows Powershell. They can be placed anywhere : the working directories are passed as parameters.
-
-
+1. These scripts are written in Windows Powershell. They can be placed anywhere : the working directories are passed as parameters. It requires that you have already scraped artwork in a folder (here `D:\Emulation\MEDIA`. This folder must contain subfolders with artwork corresponding to ROM files.
 
 ```
 PS D:\Emulation\MEDIA> tree
-Structure du dossier pour le volume Data
-Le numéro de série du volume est BE81-76EF
 D:.
 ├───amiga
 │   ├───covers
@@ -30,45 +25,10 @@ D:.
 │   ├───screenshots
 │   ├───textures
 │   └───wheels
-├───arcade90
-│   ├───covers
-│   ├───marquees
-│   ├───screenshots
-│   ├───textures
-│   └───wheels
-
-
-PS D:\Emulation\MEDIA> dir
-
-
-    Répertoire : D:\Emulation\MEDIA
-
-
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d----l        07/06/2024     08:59                amiga
-d----l        07/06/2024     08:59                arcade70
-d----l        07/06/2024     08:59                arcade80
-d----l        07/06/2024     08:59                arcade90
-d----l        07/06/2024     09:01                dreamcast
-d----l        07/06/2024     09:00                gb
-d----l        07/06/2024     09:00                gba
-d----l        07/06/2024     09:00                gbc
-d----l        07/06/2024     09:01                mastersystem
-d----l        07/06/2024     09:01                megacd
-d----l        07/06/2024     09:01                megadrive
-d----l        07/06/2024     09:00                n64
-d----l        07/06/2024     09:00                nds
-d----l        07/06/2024     09:00                nes
-d----l        07/06/2024     09:02                ngpc
-d----l        07/06/2024     09:01                pico8
-d----l        07/06/2024     09:02                psx
-d----l        07/06/2024     09:02                saturn
-d----l        07/06/2024     09:01                snes
--a---l        30/05/2024     18:51           1282 gamelists2text.ps1
--a---l        30/05/2024     16:46           2599 media2muos.ps1
--a---l        30/05/2024     16:44           3150 xml2txt.ps1
-
+```
+2. In each system folder (`amiga`, `arcade70`, `arcade80`...), there must be a proper `gamelist.xml` file produced by Skyscraper, Skraper or ARRM for instance.
+3. In each system folder which is not named according to the MuOS default naming scheme for system, there must be a `muos-system.txt` file with the MuOS system name as the first line.
+```
 PS D:\Emulation\MEDIA> cat .\amiga\muos-system.txt
 Commodore Amiga
 PS D:\Emulation\MEDIA> cat .\snes\muos-system.txt
@@ -77,7 +37,35 @@ PS D:\Emulation\MEDIA> cat .\arcade70\muos-system.txt
 Arcade
 PS D:\Emulation\MEDIA> cat .\arcade80\muos-system.txt
 Arcade
+```
+4. The scripts must be at the root of your ROM folder
+```
+PS D:\Emulation\MEDIA> dir
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----l        07/06/2024     08:59                amiga
+d----l        07/06/2024     08:59                arcade70
+d----l        07/06/2024     08:59                arcade80
+...
+...
+d----l        07/06/2024     09:02                saturn
+d----l        07/06/2024     09:01                snes
+-a---l        30/05/2024     18:51           1282 gamelists2text.ps1
+-a---l        30/05/2024     16:46           2599 media2muos.ps1
+-a---l        30/05/2024     16:44           3150 xml2txt.ps1
+```
 
+## Extract text from the gamelist.xml files
+
+Run the `gamelists2text.ps1`script
+```
+PS D:\Emulation\MEDIA> .\gamelists2text.ps1
+```
+
+To work, 
+
+
+```
 PS D:\Emulation\MEDIA> .\gamelists2text.ps1
 
 
