@@ -30,10 +30,3 @@ The script accepts one parameter :
 ```add-shadow.sh /path/to/pictures/folder```
 
 New pictures are output in subfolders of the parameter folder.
-
-
-
-
-
-
-
