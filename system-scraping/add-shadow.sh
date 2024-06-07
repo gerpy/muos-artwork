@@ -1,11 +1,34 @@
 #!/bin/sh
 
-radiusfactor=240 # 1/th of the image size
-rotate="false"   # Rotate if landscape
+# Usage : add-shadow.sh /path/to/pictures/folder
+# New pictures are output in subfolders of the parameter folder
 
-#color="black"
-#color="white"
+# Author : Tokumeino (thanks to @joyrider3774 at Discord for the help with convert)
+
+radiusfactor=240	# 1/th of the image size
+rotate="false"		# Rotate if landscape
+outputsize="46200"	# Number of pixels
+					# A very wide logo sould not be wider than 396x50 ~ 19400pix
+					# Resizing in MPIX permits that
+					#	every logo is the same aparent size (surface)
+					# 19400 is OK for logos
+					# 46200 is OK for pictures
+					# 
+#color="black"		# With no color
+#color="white"		# 	the inverse of the average color is computed for each picture
 #color="yellow"
+
+if [ $# -lt 1 ] ; then
+    echo "Need 1 parameter : images folder"
+	exit 1
+fi
+
+if [ ! -d "$1" ] ; then
+	echo "Image folder $1 does not exist"
+	exit 1
+fi
+
+cd "$1"
 
 out="shadow-$color"
 if [ -z "$color" ] ; then
@@ -65,9 +88,7 @@ find . -mindepth 1 -maxdepth 1 -name "*.png" -type f | while read origpng; do
 		-background none  -layers merge +repage \
 		/tmp/tokumeino-shadow.png
 		
-	# A very wide logo sould not be wider than 396x50 ~ 19400pix
-	# Resizing in MPIX permits that every logo is the same aparent size (surface)
-	convert /tmp/tokumeino-shadow.png /tmp/tokumeino-shadow.png -composite -trim +repage -resize 19400@ -rotate $angle "$out/$origpng"
+	convert /tmp/tokumeino-shadow.png /tmp/tokumeino-shadow.png -composite -trim +repage -resize $outputsize@ -rotate $angle "$out/$origpng"
 	
 	rm -f /tmp/tokumeino-shadow*
 

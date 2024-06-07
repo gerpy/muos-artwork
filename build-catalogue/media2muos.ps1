@@ -16,7 +16,7 @@ Get-ChildItem -Directory | ForEach-Object {
 	
 	# Ensures that all the MuOS pictures and text folders exist
 	# Otherwise, skip folder
-	if ((!(Test-Path "$PWD\screenshots")) -or (!(Test-Path "$PWD\covers")) -or (!(Test-Path "$PWD\texts"))) {
+	if ((!(Test-Path "$PWD\screenshots")) -or (!(Test-Path "$PWD\covers")) -or (!(Test-Path "$PWD\text"))) {
 		Write-Host "-- Skip $PWD --"
 	}
 	else {
@@ -57,7 +57,7 @@ Get-ChildItem -Directory | ForEach-Object {
 		# Copy contents
 		Copy-Item -Path "$PWD\covers\*" -Destination "$targetCatalogue\$muosSystem\box\" -Recurse
 		Copy-Item -Path "$PWD\screenshots\*" -Destination "$targetCatalogue\$muosSystem\preview\" -Recurse		
-		Copy-Item -Path "$PWD\texts\*" -Destination "$targetCatalogue\$muosSystem\text\" -Recurse		
+		Copy-Item -Path "$PWD\text\*" -Destination "$targetCatalogue\$muosSystem\text\" -Recurse		
 	}
 
 	# Reset current folder to script folder (not really useful)

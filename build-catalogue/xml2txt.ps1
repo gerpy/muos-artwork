@@ -15,7 +15,7 @@ $xmlFiles = Get-ChildItem -Path $PSScriptRoot -Filter gamelist.xml
 # Assumption : the script sits in the same folder as the gamelist.xml file
 
 new-item "$PSScriptRoot/text" -ItemType Directory -Force
-$outputFolderPath = "$PSScriptRoot/texts"
+$outputFolderPath = "$PSScriptRoot/text"
 
 # Open the XML file to get parsed
 $xml = [xml] (Get-Content -raw "gamelist.xml")

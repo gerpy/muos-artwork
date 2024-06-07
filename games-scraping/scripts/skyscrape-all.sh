@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Author : Tokumeino 
-# V0.91
+# V1.0
 
 # Usage : scrape-all-systems <mode> <sourceFolder> <destFolder>
 # - <mode> is mandatory : - PULL (download from the net and fill the cache)
@@ -14,6 +14,9 @@
 # The script assumes that there is a <system>.sky empty file in each rom system folder
 # <system> refers to skyskraper system names as listed by Skyscraper --help 
 # If no <system>.sky, the script skips the folder
+
+# Change to the file/where/you/put/the/mix
+mix="$HOME/mixes/inner-gradient-screen-wheel.xml"
 
 if [ $# -lt 2 ] ; then
     echo "Need 2 parameters : mode then ROMS root folder"
@@ -72,7 +75,7 @@ find "$srcRoot" -mindepth 1 -maxdepth 1 -type d | while read srcFolder; do
 		if [ $1 = "ART" ] || [ $1 = "BOTH" ] ; then
 			echo "- Art"
 			##### COMMANDS FOR ART MODE ####
-			Skyscraper -p "$skySystem" -i "$srcFolder" -o "$dstFolder" -g "$dstFolder" --verbosity=1 --flags nobrackets,unattend -a ~/mixes/cropped-gradient.xml
+			Skyscraper -p "$skySystem" -i "$srcFolder" -o "$dstFolder" -g "$dstFolder" --verbosity=1 --flags nobrackets,unattend -a "$mix"
 		fi
 		
 		#### AFTER COMMANDS FOR ANY MODE ####
