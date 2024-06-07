@@ -6,7 +6,7 @@ There are several sets of gaming systems pictures on the web. However, the darke
 
 There are color logos, B&W logos and pictures of the consoles/systems. To give an example, I will focus on [system pictures](https://github.com/gerpy/muos-artwork/tree/master/system-scraping/system-pictures/shadow-invert) and [color logos](https://github.com/gerpy/muos-artwork/tree/master/system-scraping/system-logos/shadow-invert).
 
-Here are original white and black logos, as displayed on your current GitHub theme (yes there are 2 logos tight below).
+Here are original white and black logos, as displayed on your current GitHub theme (yes there are 2 logos right below).
 
 <kbd>
   <img src="https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/Playstation%204_wor_1.png">
@@ -15,9 +15,6 @@ Here are original white and black logos, as displayed on your current GitHub the
 <kbd>
   <img src="https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/Nintendo%20DS_wor_1.png">
 </kbd>
-
-![white](https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/Playstation%204_wor_1.png)
-![black](https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/Nintendo%20DS_wor_1.png)
 
 We want that, with a small border to underline logo :
 
