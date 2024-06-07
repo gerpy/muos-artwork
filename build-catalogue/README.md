@@ -57,6 +57,8 @@ d----l        07/06/2024     09:01                snes
 -a---l        30/05/2024     16:44           3150 xml2txt.ps1
 ```
 
+The `xml2txt.ps1` script is very close because heavilly inspired by ttps://github.com/antiKk/muOS-Artwork/blob/main/Skraper%20Mixes/convert.ps1.
+
 ## Extract text from the gamelist.xml files
 
 Run the `gamelists2text.ps1`script
