@@ -11,14 +11,11 @@ The following sections are dedicated to :
 Thanks to people on ther [MuOS Discord](https://discord.gg/USS5ybVtDz).
 
 <kbd>
-  <img src="https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/shadow-invert/Atari%202600_wor_1.png">
+  <img src="(https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/mslug.png">
 </kbd>
-
-<img src= "https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/shadow-invert/Atari%202600_wor_1.png" alt="cover" style="border: 4px solid grey;">
 
 ![](https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/shadow-invert/Atari%202600_wor_1.png)
 
-![](https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/mslug.png)
 
 
 
