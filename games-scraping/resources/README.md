@@ -4,6 +4,15 @@ These masks are 640x480. The gradient starts at `x=320` (middle) and ends at `x=
 
 The PNG files must sit in your `~/.skyscraper/ressources` folder. You may also use subfolders, but then you should adapt the XML mix.
 
+```
+pierre@Legion:~$ ls .skyscraper/resources/
+boxfront.png      maskexample.png          muos-gradient-dither.png  muos-grain-low.png      scanlines1.png
+boxside.png       muos-dithering-bw.png    muos-gradient-soft.png    muos-grain-mid.png      scanlines2.png
+frameexample.png  muos-dithering-gray.png  muos-grain-high.png       muos-halftone-dots.png
+```
+
+The available masks are the following :
+
   - `muos-gradient-soft.png` is a greyscale gradient without any king of dithering. It is versy soft but may lead to banding artifacts
   - `muos-gradient-dither.png` is the same as the previous one, but with Photoshop's super mild dithering 
   - `muos-dithering-bw.png` is a retro 2 colors dithering with a late 80's look 
