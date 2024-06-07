@@ -1,1 +1,1 @@
-
+# System artwork for MuOS
