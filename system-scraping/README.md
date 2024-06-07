@@ -9,11 +9,11 @@ There are color logos, B&W logos and pictures of the consoles/systems. To give a
 Here are original white and black logos, as displayed on your current GitHub theme (yes there are 2 logos right below).
 
 <kbd>
-  <img src="https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/Playstation%204_wor_1.png">
+  <img src="https://github.com/gerpy/muos-artwork/blob/master/screenscraper.fr/system-scraping/system-logos/Playstation%204_wor_1.png">
 </kbd>
 
 <kbd>
-  <img src="https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/Nintendo%20DS_wor_1.png">
+  <img src="https://github.com/gerpy/muos-artwork/blob/master/screenscraper.fr/system-scraping/system-logos/Nintendo%20DS_wor_1.png">
 </kbd>
 
 We want that, with a small border to underline logo :
