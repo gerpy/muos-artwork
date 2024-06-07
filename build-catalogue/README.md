@@ -114,7 +114,7 @@ You can edit the `media2muos.ps1` to change the destination folder of the catalo
 PS D:\Emulation\MEDIA> .\media2muos.ps1
 ```
 In the destination, you get a different folder structure but with boxart, previews ans texts for each system. Note that if multiple media folder have `muos-system.txt` files with the same content, there are all merged per system. Here for instance, I have multiple folders with `Arcade` games (as named by MuOS) : `arcade70`, `arcade80` and `arcade90`.
-
+```
 PS D:\Emulation\MEDIA> tree '..\MuOS Catalogue\'
 D:\EMULATION\MUOS CATALOGUE
 ├───Arcade
