@@ -1,0 +1,1 @@
+These are from https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions, just processed (outlined, trimed, resized and rotated). Also, they now have much more balanced sizes.
