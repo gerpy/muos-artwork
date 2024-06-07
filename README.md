@@ -8,7 +8,7 @@ The following sections are dedicated to :
 2. [Copy game text and artwork to a MuOS catalogue](https://github.com/gerpy/muos-artwork/tree/master/build-catalogue)
 3. [Fix system logos and pictures to display correctly on any theme](https://github.com/gerpy/muos-artwork/tree/master/system-scraping)
 
-Thanks to people on ther [MuOS Discord](https://discord.gg/USS5ybVtDz).
+Thanks to people on ther [MuOS Discord](https://discord.gg/USS5ybVtDz) and @joyrider3774 in particular.
 
 <kbd>
   <img src="https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/mslug.png">
