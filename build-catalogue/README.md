@@ -1,8 +1,10 @@
-# Build a MuOS catalogue
+# Build a MuOS catalogue from artwork and gamemlists
+
+To be displayed, the text and pictures about games must be placed in a folder hierarchy according a strict naming convention as described here : https://muos.dev/help/artwork. Such a folder structure is called a catalogue.
 
 ## Prerequisite
 
-1. These scripts are written in Windows Powershell. They can be placed anywhere : the working directories are passed as parameters. It requires that you have already scraped artwork in a folder (here `D:\Emulation\MEDIA`. This folder must contain subfolders with artwork corresponding to ROM files. Only `covers` and `screenshots` folders are mandatory.
+1. The scripts requires that you have already scraped artwork in a folder (here `D:\Emulation\MEDIA`. This folder must contain subfolders with artwork corresponding to ROM files. Only `covers` and `screenshots` folders are mandatory.
 
 ```
 PS D:\Emulation\MEDIA> tree
@@ -26,8 +28,8 @@ D:.
 │   ├───textures
 │   └───wheels
 ```
-2. In each system folder (`amiga`, `arcade70`, `arcade80`...), there must be a proper `gamelist.xml` file produced by Skyscraper, Skraper or ARRM for instance.
-3. In each system folder which is not named according to the MuOS default naming scheme for system, there must be a `muos-system.txt` file with the MuOS system name as the first line.
+2. In each system folder (`amiga`, `arcade70`, `arcade80`...), there must also be a `gamelist.xml` file as produced by Skyscraper, Skraper or ARRM for instance.
+3. In each system folder which is not named according to the MuOS naming scheme for systems, there must be a `muos-system.txt` file with the MuOS system name as the first line. The MuOS system names can be found here for instance : https://github.com/antiKk/muOS-internal/blob/main/init/MUOS/info/assign.json
 ```
 PS D:\Emulation\MEDIA> cat .\amiga\muos-system.txt
 Commodore Amiga
@@ -61,15 +63,8 @@ Run the `gamelists2text.ps1`script
 ```
 PS D:\Emulation\MEDIA> .\gamelists2text.ps1
 ```
-
-To work, 
-
-
+The script extracts the descriptions from the `gamelist.xml` files and adds `text` folders each containing `txt` files named as the `gamelist.xml` entries. MuOS can display the text information if adequately put in the catalogue.
 ```
-PS D:\Emulation\MEDIA> .\gamelists2text.ps1
-
-
-
 PS D:\Emulation\MEDIA> tree
 Structure du dossier pour le volume Data
 Le numéro de série du volume est BE81-76EF
@@ -95,52 +90,32 @@ D:.
 │   ├───text
 │   ├───textures
 │   └───wheels
+```
 
+```
 PS D:\Emulation\MEDIA> ls .\arcade70\text
-
-
-    Répertoire : D:\Emulation\MEDIA\arcade70\text
-
-
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 -a---l        07/06/2024     10:41           2353 asteroid.txt
 -a---l        07/06/2024     10:41            189 atetris.txt
 -a---l        07/06/2024     10:41           1427 btime.txt
 -a---l        07/06/2024     10:41            651 bwidow.txt
--a---l        07/06/2024     10:41           1103 bzone.txt
--a---l        07/06/2024     10:41           1981 defender.txt
--a---l        07/06/2024     10:41            372 digdug.txt
--a---l        07/06/2024     10:41            593 frogger.txt
--a---l        07/06/2024     10:41            707 galaga.txt
--a---l        07/06/2024     10:41            671 galaxian.txt
--a---l        07/06/2024     10:41           1088 gyruss.txt
--a---l        07/06/2024     10:41            785 invaders.txt
--a---l        07/06/2024     10:41           1830 joust.txt
--a---l        07/06/2024     10:41           1348 jrpacman.txt
--a---l        07/06/2024     10:41           1282 junofrst.txt
--a---l        07/06/2024     10:41           2513 llander.txt
--a---l        07/06/2024     10:41           1288 mhavoc.txt
--a---l        07/06/2024     10:41           1211 milliped.txt
--a---l        07/06/2024     10:41            870 missile.txt
--a---l        07/06/2024     10:41           1830 mpatrol.txt
--a---l        07/06/2024     10:41           1057 mspacman.txt
--a---l        07/06/2024     10:41            361 pacman.txt
--a---l        07/06/2024     10:41            520 qbert.txt
--a---l        07/06/2024     10:41            987 rallyx.txt
--a---l        07/06/2024     10:41           1501 robotron.txt
--a---l        07/06/2024     10:41            576 tempest.txt
+...
+...
 -a---l        07/06/2024     10:41           1934 trackfld.txt
 -a---l        07/06/2024     10:41           2516 tron.txt
 -a---l        07/06/2024     10:41            350 zaxxon.txt
+```
 
+## Copy text and artwork according to a MuOS catalogue structure
 
+You can edit the `media2muos.ps1` to change the destination folder of the catalogue files. Then launch the script (yes there are warnings, the script is dirty).
+```
 PS D:\Emulation\MEDIA> .\media2muos.ps1
-
+```
+In the destination, you get a different folder structure but with boxart, previews ans texts for each system. Note that if multiple media folder have `muos-system.txt` files with the same content, there are all merged per system. Here for instance, I have multiple folders with `Arcade` games (as named by MuOS) : `arcade70`, `arcade80` and `arcade90`.
 
 PS D:\Emulation\MEDIA> tree '..\MuOS Catalogue\'
-Structure du dossier pour le volume Data
-Le numéro de série du volume est BE81-76EF
 D:\EMULATION\MUOS CATALOGUE
 ├───Arcade
 │   ├───box
@@ -159,5 +134,4 @@ D:\EMULATION\MUOS CATALOGUE
 │   ├───preview
 │   └───text
 ```
-
-
+You may now copy the system folders in your MuOS SD card such as described here : https://muos.dev/help/artwork
