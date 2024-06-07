@@ -2,7 +2,7 @@
 
 To be displayed, the text and pictures about games must be placed in a folder hierarchy according a strict naming convention as described here : https://muos.dev/help/artwork. Such a folder structure is called a catalogue.
 
-## Prerequisite
+## Prerequisites
 
 1. The scripts requires that you have already scraped artwork in a folder (here `D:\Emulation\MEDIA`. This folder must contain subfolders with artwork corresponding to ROM files. Only `covers` and `screenshots` folders are mandatory.
 
