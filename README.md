@@ -16,6 +16,7 @@ Thanks to people on the [MuOS Discord](https://discord.gg/USS5ybVtDz) and @joyri
 
 ### To come
 
-An archive for the Tiny Best Set.
+- An archive for the Tiny Best Set
+- Other mixes (full screen, with boxart...)
 
 
