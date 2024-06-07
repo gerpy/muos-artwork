@@ -14,6 +14,5 @@ Thanks to people on ther [MuOS Discord](https://discord.gg/USS5ybVtDz).
   <img src="https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/mslug.png">
 </kbd>
 
-![](https://github.com/gerpy/muos-artwork/blob/master/system-scraping/system-logos/shadow-invert/Atari%202600_wor_1.png)
 
 
