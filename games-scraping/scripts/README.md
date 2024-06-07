@@ -56,7 +56,8 @@ roms/snes/snes.sky
 
 ### Adapt the script
 
-You need to modify the script to point to the XML mix you want to use.
+- You need to modify the script to point to the XML mix you want to use
+- You also need to replace `login:password` by your Screenscraper.fr credentials
 
 ### Usage
 
