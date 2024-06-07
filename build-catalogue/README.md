@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-1. These scripts are written in Windows Powershell. They can be placed anywhere : the working directories are passed as parameters. It requires that you have already scraped artwork in a folder (here `D:\Emulation\MEDIA`. This folder must contain subfolders with artwork corresponding to ROM files.
+1. These scripts are written in Windows Powershell. They can be placed anywhere : the working directories are passed as parameters. It requires that you have already scraped artwork in a folder (here `D:\Emulation\MEDIA`. This folder must contain subfolders with artwork corresponding to ROM files. Only `covers` and `screenshots` folders are mandatory.
 
 ```
 PS D:\Emulation\MEDIA> tree
