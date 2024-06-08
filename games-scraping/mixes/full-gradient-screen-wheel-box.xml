@@ -9,7 +9,7 @@
 		<!-- Gradient PNG starts at x=320 and end at x=400 (middle is x=360)
 		     The mix accomodates up to 2:3 vertical screenshots (this is the worst case DS screenshots) -->
 		<layer resource="screenshot" height="480" align="center" valign="middle" x="160">
-			<blur softness="1"/>
+			<blur softness="2"/>
 			<opacity value="100"/>
 		</layer>
 	
