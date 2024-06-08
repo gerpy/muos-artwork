@@ -16,7 +16,7 @@
 # If no <system>.sky, the script skips the folder
 
 # Change to the file/where/you/put/the/mix
-mix="$HOME/mixes/inner-gradient-screen-wheel.xml"
+mix="$HOME/mixes/full-gradient-screen-wheel.xml"
 
 if [ $# -lt 2 ] ; then
     echo "Need 2 parameters : mode then ROMS root folder"
