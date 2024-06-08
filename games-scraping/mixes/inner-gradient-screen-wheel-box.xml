@@ -2,37 +2,37 @@
 <artwork>
 	<!-- Author : @Tokumeino (Discord)
 	     There are multiple outputs, not only the cover
-	     The boxart is full screen (VGA) with the left part beeing mostly transparent
-	     and room let to the top and bottom 42 pixels MuOS UI bars  -->
+	     The boxart is full screen (VGA) with the left part beeing mostly transparent,
+		 and room is let to the top and bottom 42 pixels MuOS UI bars  -->	 
 	<output type="cover" width="640" height="480">
   
 		<!-- Gradient PNG starts at x=320 and end at x=400 (middle is x=360)
+		     the screenshot has to be 396 high and not 480 not to fill top and bottom MuOS bars
 		     The mix accomodates up to 2:3 vertical screenshots (this is the worst case DS screenshots) -->
-		<layer resource="screenshot" height="480" align="center" valign="middle" x="160">
-			<blur softness="2"/>
+		<layer resource="screenshot" height="396" align="center" valign="middle" x="188">
+			<blur softness="1"/>
 			<opacity value="100"/>
 		</layer>
 	
 		<!-- The mask must be placed in the ~/.skyscraper/ressources folder -->
-		<mask file="muos-grain-low.png" width="640" height="480" x="0"/>
-		
+		<mask file="muos-grain-low.png" width="640" height="480" x="56"/>
 		
 		
 		<!-- Horizontally aligned with the wheel
-		     Vertically, 42 above the bottom (MuOS bottom bar) plus a 2pix margin plus the shadow
-			 38400 pixels is 240x160 : it still fits the screen by some margin with aspect ratios up tp 3:2 -->
-		<layer resource="cover" mpixels="0.0384" align="center" valign="bottom" x="170" y="-50" >
+		     Vertically, 42 above the bottom (MuOS bottom bar) plus an 8 pix margin plus the shadow
+			 26140 pixels is 210x140 : it still fits the screen by some margin with aspect ratios up tp 3:2 -->
+		<layer resource="cover" mpixels="0.0294" align="center" valign="bottom" x="198" y="-56" >
 			<shadow distance="6" softness="5" opacity="50"/>
 		</layer>
 		
 		<!-- Wheel after the mask and box to cover them
 		     (it is larger than the 100% plain area but should not be faded by the mask)
 		     The X offset is shifted by 10 wrt center to compensate the terasparent part a bit, center would be 188
-		     Vertically, 42 below the top (MuOS top bar) plus a 3pix margin
+		     Vertically, 42 below the top (MuOS top bar) plus an 8pix margin plus half a shadow to balance
 		     Size in MPIXELS. To accomodate super wide wheels (Quake II Arena on DC for instance, set to 0.008)
 			 But other wheels render very small in this case.
-			 If OK with cutting wheels over 5:1 aspect ratio (vast majority, that's 18000 pixels for a 300 width -->
-		<layer resource="wheel" mpixels="0.0180" align="center" valign="top" x="170" y="45">
+			 If OK with cutting wheels over 5:1 aspect ratio (vast majority, that's 11520 pixels for a 240 width -->
+		<layer resource="wheel" mpixels="0.0115" align="center" valign="top" x="198" y="53">
 			<stroke width="2" red="0" green="0" blue="0"/>
 			<shadow distance="6" softness="5" opacity="50"/>
 		</layer> 
