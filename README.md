@@ -17,7 +17,7 @@ To get more samples than below, see [masks](https://github.com/gerpy/muos-artwor
 </kbd>
 
 <kbd>
-  <img src="games-scraping/mixes/samples/simple-box-cart.png"
+  <img src="games-scraping/mixes/samples/simple-box-cart.png">
 </kbd>
 
 ### To come
