@@ -23,7 +23,7 @@ The available masks are the following :
   - `muos-grain-mid.png` adresses banding with more visible grain
 
 <kbd>
-  <img src="samples/mslug-muos-dithering-bw.png">
+  <img src="samples/mslug-muos-dithering-bw.png" muos-dithering-bw.png>
 </kbd>
 
 <kbd>
