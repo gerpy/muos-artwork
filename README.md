@@ -14,6 +14,10 @@ Thanks to people on the [MuOS Discord](https://discord.gg/USS5ybVtDz) and @joyri
   <img src="games-scraping/masks/samples/mslug-muos-grain-low.png">
 </kbd>
 
+<kbd>
+  <img src="games-scraping/mixes/samples/simple-box-cart.png
+</kbd>
+
 ### To come
 
 - An archive for the Tiny Best Set
