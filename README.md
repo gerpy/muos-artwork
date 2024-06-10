@@ -11,7 +11,7 @@ The following sections are dedicated to :
 Thanks to people on the [MuOS Discord](https://discord.gg/USS5ybVtDz) and @joyrider3774 in particular.
 
 <kbd>
-  <img src="https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/mslug.png">
+  <img src="games-scraping/masks/samples/mslug-muos-grain-low.png">
 </kbd>
 
 ### To come
