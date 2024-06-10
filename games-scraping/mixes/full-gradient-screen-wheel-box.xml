@@ -31,8 +31,8 @@
 		     Vertically, 42 below the top (MuOS top bar) plus a 3pix margin
 		     Size in MPIXELS. To accomodate super wide wheels (Quake II Arena on DC for instance, set to 0.008)
 			 But other wheels render very small in this case.
-			 If OK with cutting wheels over 5:1 aspect ratio (vast majority, that's 18000 pixels for a 300 width -->
-		<layer resource="wheel" mpixels="0.0180" align="center" valign="top" x="170" y="45">
+			 If OK with cutting wheels over 6:1 aspect ratio (vast majority, that's 15000 pixels for a 300 width -->
+		<layer resource="wheel" mpixels="0.0150" align="center" valign="top" x="170" y="45">
 			<stroke width="2" red="0" green="0" blue="0"/>
 			<shadow distance="6" softness="5" opacity="50"/>
 		</layer> 

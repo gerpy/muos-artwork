@@ -14,7 +14,7 @@
 		</layer>
 	
 		<!-- The mask must be placed in the ~/.skyscraper/ressources folder -->
-		<mask file="muos-grain-low.png" width="640" height="480" x="0"/>
+		<mask file="muos-gradient-soft.png" width="640" height="480" x="0"/>
 	
 		<!-- Wheel after the mask to cover it
 		    (it is larger than the 100% plain area but should not be faded by the mask) -->
@@ -36,3 +36,14 @@
 	<output type="marquee"/>
 	<output type="texture"/>
 </artwork>
+
+<!-- 
+muos-dithering-bw.png
+muos-dithering-gray.png
+muos-gradient-dither.png
+muos-gradient-soft.png
+muos-grain-high.png
+muos-grain-low.png
+muos-grain-mid.png
+muos-halftone-dots.png
+-->

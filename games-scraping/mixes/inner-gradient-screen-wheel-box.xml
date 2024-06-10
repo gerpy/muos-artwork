@@ -15,7 +15,7 @@
 		</layer>
 	
 		<!-- The mask must be placed in the ~/.skyscraper/ressources folder -->
-		<mask file="muos-halftone-dots.png" width="640" height="480" x="56"/>
+		<mask file="muos-grain-low.png" width="640" height="480" x="56"/>
 		
 		
 		<!-- Horizontally aligned with the wheel
