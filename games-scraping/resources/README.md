@@ -22,4 +22,31 @@ The available masks are the following :
   - `muos-grain-high.png` adresses banding with a medium intensity grain 
   - `muos-grain-mid.png` adresses banding with more visible grain
 
-> This page needs to be updated so as to include samples.
+<kbd>
+  <img src="samples/mslug-muos-dithering-bw.png">
+</kbd>
+
+<kbd>
+  <img src="samples/mslug-muos-dithering-gray.png">
+</kbd>
+
+<kbd>
+  <img src="samples/mslug-muos-gradient-soft.png">
+</kbd>
+
+<kbd>
+  <img src="samples/mslug-muos-grain-high.png">
+</kbd>
+
+<kbd>
+  <img src="samples/mslug-muos-grain-low.png">
+</kbd>
+
+<kbd>
+  <img src="samples/mslug-muos-grain-mid.png">
+</kbd>
+
+<kbd>
+  <img src="samples/mslugmuos-halftone-dots.png">
+</kbd>
+
