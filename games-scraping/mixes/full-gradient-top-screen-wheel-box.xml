@@ -14,7 +14,7 @@
 	
 		<mask file="muos-grain-low.png" width="640" height="480" x="0"/>
 		
-		<layer opacity="80" height="240" width="320" align="center" valign="top" x="170" y="43">
+		<layer opacity="80" height="240" width="320" align="center" valign="top" x="170" y="48">
 		
 			<layer opacity="80" resource="cover" mpixels="0.0225" align="center" valign="bottom">
 				<stroke width="3" red="0" green="0" blue="0"/>
