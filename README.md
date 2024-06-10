@@ -15,6 +15,7 @@ To get more samples than below, see [masks](https://github.com/gerpy/muos-artwor
 <kbd>
   <img src="games-scraping/masks/samples/mslug-muos-grain-low.png">
 
+
   <img src="games-scraping/mixes/samples/simple-box-cart.png">
 </kbd>
 
