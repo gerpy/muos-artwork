@@ -6,30 +6,32 @@ This XML mixes are designed to be used with MuOS and the provided transparency m
 
 <kbd>
   <img src="samples/full-gradient-screen-wheel-box.png">
-</kbd>
 
-<kbd>
+  full-gradient-screen-wheel-box.xml
+
   <img src="samples/full-gradient-screen-wheel.png">
-</kbd>
 
-<kbd>
+  full-gradient-screen-wheel.xml
+
   <img src="samples/inner-gradient-screen-wheel-box.png">
-</kbd>
 
-<kbd>
+  inner-gradient-screen-wheel-box.xml
+
   <img src="samples/inner-gradient-screen-wheel.png">
-</kbd>
 
-<kbd>
+  inner-gradient-screen-wheel.xml
+
   <img src="samples/simple-box-cart.png">
-</kbd>
 
-<kbd>
+  simple-box-cart.xml
+
   <img src="samples/simple-box-flat.png">
-</kbd>
 
-<kbd>
+  simple-box-flat.pxml
+
   <img src="samples/simple-box.png">
+
+  simple-box.xml
 </kbd>
 
 
