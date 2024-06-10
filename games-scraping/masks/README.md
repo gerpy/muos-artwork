@@ -26,9 +26,7 @@ The available masks are the following :
   <img src="samples/mslug-muos-dithering-bw.png">
 
   muos-dithering-bw.png
-</kbd>
 
-<kbd>
   <img src="samples/mslug-muos-dithering-gray.png">
 </kbd>
 
