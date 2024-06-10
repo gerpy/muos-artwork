@@ -10,12 +10,14 @@ The following sections are dedicated to :
 
 Thanks to people on the [MuOS Discord](https://discord.gg/USS5ybVtDz) and @joyrider3774 in particular.
 
+To get more samples than below, see [masks](https://github.com/gerpy/muos-artwork/tree/master/games-scraping/masks) and [mixes](https://github.com/gerpy/muos-artwork/tree/master/games-scraping/mixes).
+
 <kbd>
   <img src="games-scraping/masks/samples/mslug-muos-grain-low.png">
 </kbd>
 
 <kbd>
-  <img src="games-scraping/mixes/samples/simple-box-cart.png
+  <img src="games-scraping/mixes/samples/simple-box-cart.png"
 </kbd>
 
 ### To come
