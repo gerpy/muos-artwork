@@ -28,25 +28,27 @@ The available masks are the following :
   muos-dithering-bw.png
 
   <img src="samples/mslug-muos-dithering-gray.png">
-</kbd>
 
-<kbd>
+  muos-dithering-gray.png
+  
   <img src="samples/mslug-muos-gradient-soft.png">
-</kbd>
 
-<kbd>
+  muos-gradient-soft.png
+
   <img src="samples/mslug-muos-grain-high.png">
-</kbd>
 
-<kbd>
+  muos-grain-high.png
+
   <img src="samples/mslug-muos-grain-low.png">
-</kbd>
 
-<kbd>
+  muos-grain-low.png
+
   <img src="samples/mslug-muos-grain-mid.png">
-</kbd>
 
-<kbd>
-  <img src="samples/mslugmuos-halftone-dots.png">
+  muos-grain-mid.png
+
+  <img src="samples/mslug-muos-halftone-dots.png">
+
+  mslug-muos-halftone-dots.png
 </kbd>
 
