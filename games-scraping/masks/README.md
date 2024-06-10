@@ -24,6 +24,7 @@ The available masks are the following :
 
 <kbd>
   <img src="samples/mslug-muos-dithering-bw.png">
+
   muos-dithering-bw.png
 </kbd>
 
