@@ -19,11 +19,11 @@
 #mix="$HOME/mixes/full-gradient-screen-wheel-box.xml"
 #mix="$HOME/mixes/full-gradient-screen-wheel.xml"
 #mix="$HOME/mixes/inner-gradient-screen-wheel-box.xml"
-#mix="$HOME/mixes/inner-gradient-screen-wheel.xml"
+mix="$HOME/mixes/inner-gradient-screen-wheel.xml"
 #mix="$HOME/mixes/simple-box-cart.xml"
 #mix="$HOME/mixes/simple-box-flat.xml"
 #mix="$HOME/mixes/simple-box.xml"
-mix="$HOME/mixes/full-gradient-top-screen-wheel-box.xml"
+#mix="$HOME/mixes/full-gradient-top-screen-wheel-box.xml"
 
 # Put your screenscraper.fr credentials here
 credentials="home:pass"
