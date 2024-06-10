@@ -24,6 +24,7 @@ We want that, with a small border to underline logo :
 ## How does it work ?
 
 The script calculates the average color of an image and applies a surrounding shadow of the inverse color. For colored logos, it turns like that :
+
 ![white](https://github.com/gerpy/muos-artwork/blob/master/system-outline/screenscraper.fr/system-logos/shadow-invert/Game%20Boy_wor_1.png)
 
 Additional features are :
