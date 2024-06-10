@@ -16,7 +16,16 @@
 # If no <system>.sky, the script skips the folder
 
 # Change to the file/where/you/put/the/mix
-mix="$HOME/mixes/inner-gradient-screen-wheel-box.xml"
+mix="$HOME/mixes/simple-box-cart.xml"
+#mix="$HOME/mixes/inner-gradient-screen-wheel.xml"
+
+# Put your screenscraper.fr credentials here
+credentials="home:pass"
+
+if [ ! -f "$mix" ] ; then
+	echo "Mix $mix does not exist. Modify script."
+	exit 1
+fi
 
 if [ $# -lt 2 ] ; then
     echo "Need 2 parameters : mode then ROMS root folder"
@@ -69,8 +78,7 @@ find "$srcRoot" -mindepth 1 -maxdepth 1 -type d | while read srcFolder; do
 		if [ $1 = "PULL" ] || [ $1 = "BOTH" ] ; then
 			echo "- Pull"
 			#### COMMANDS FOR PULL MODE ####
-			# UNTESTED SAMPLE Skyscraper -p "$skySystem" -i "$srcFolder" -s screenscraper -u login:pass
-			Skyscraper -p "$skySystem" -i "$srcFolder" -s screenscraper -u user:pass
+			Skyscraper -p "$skySystem" -i "$srcFolder" -s screenscraper -u "$credentials"
 		fi
 		if [ $1 = "ART" ] || [ $1 = "BOTH" ] ; then
 			echo "- Art"
