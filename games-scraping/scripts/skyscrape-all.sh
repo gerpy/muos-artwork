@@ -16,7 +16,7 @@
 # If no <system>.sky, the script skips the folder
 
 # Change to the file/where/you/put/the/mix
-mix="$HOME/mixes/simple-box.xml"
+mix="$HOME/mixes/simple-box-flat.xml"
 #mix="$HOME/mixes/inner-gradient-screen-wheel.xml"
 
 # Put your screenscraper.fr credentials here
