@@ -11,5 +11,5 @@ I want the MuOS text list of games gently fade under boxart. So alpha channel tr
 
 ## Samples
 
-See samples here : https://github.com/gerpy/muos-artwork/tree/master/games-scraping/samples
+See samples here : https://github.com/gerpy/muos-artwork/tree/master/games-scraping/mixes
 
