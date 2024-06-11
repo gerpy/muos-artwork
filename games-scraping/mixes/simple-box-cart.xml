@@ -12,13 +12,11 @@
 			 These boxes shouldn't cover the middle text line at Y=237 (238pix)
 			 and we take a 28 pix margin bottom and right
 			 There is 172 height left, which is 235 wide, thus 40396 pixels -->
-		<layer resource="cover" mpixels="0.040396" align="right" valign="bottom" x="-28" y="-70" />
+		<layer resource="cover" mpixels="0.040396" align="right" valign="bottom" x="-25" y="-67" />
 		
-		<!-- Cart with max AR of 3:2 (54x81 or 81x54 or 66x66 = 4374)
-		     Bottom margin is 42+8 ; Right is 8 -->
-		<layer resource="texture" mpixels="0.004374" align="right" valign="bottom" x="-8" y="-50" />
+		<layer resource="texture" mpixels="0.006" align="right" valign="bottom" x="-7" y="-50" />
 
-		<shadow distance="0" softness="6" opacity="50"/>
+		<shadow distance="0" softness="6" opacity="66"/>
 	
 	</output>
  
