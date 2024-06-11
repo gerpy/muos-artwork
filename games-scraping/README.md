@@ -4,7 +4,7 @@ I want the MuOS text list of games gently fade under boxart. So alpha channel tr
 
 ## Workflow
 
-1. Get the masks from https://github.com/gerpy/muos-artwork/tree/master/games-scraping/resources
+1. Get the masks from https://github.com/gerpy/muos-artwork/tree/master/games-scraping/masks
 2. Get an XML mix from https://github.com/gerpy/muos-artwork/tree/master/games-scraping/mixes
 3. Get the scrape script from https://github.com/gerpy/muos-artwork/tree/master/games-scraping/scripts
 4. Run the script and enjoy !
@@ -12,9 +12,4 @@ I want the MuOS text list of games gently fade under boxart. So alpha channel tr
 ## Samples
 
 See samples here : https://github.com/gerpy/muos-artwork/tree/master/games-scraping/samples
-
-![](https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/Advance%20Wars%20-%20Dual%20Strike%20(USA%2C%20Australia).png)
-![](https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/1941.png)
-![](https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/Mario%20Kart%2064%20(USA).png)
-![](https://github.com/gerpy/muos-artwork/blob/master/games-scraping/samples/Sega%20Rally%20Championship%20(USA).png)
 
