@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- WORK IN PROGRES -->
+<!-- WORK IN PROGRES -->
+<!-- WORK IN PROGRES -->
+<!-- WORK IN PROGRES -->
+<!-- WORK IN PROGRES -->
+<!-- WORK IN PROGRES -->
+
+<artwork>
+
+	<output type="cover" width="640" height="480">
+		<layer resource="cover" mpixels="0.054618" align="right" valign="bottom" y="-42">
+			<mask file="black.png"/>
+		</layer>
+		<shadow distance="-8" softness="8" opacity="80"/>			
+	</output>
+ 
+	<output type="screenshot" width="515" height="275">
+		<layer resource="screenshot" height="275" align="center" valign="middle"/>
+	</output>
+	
+</artwork>
