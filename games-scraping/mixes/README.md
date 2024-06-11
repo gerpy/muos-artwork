@@ -34,6 +34,10 @@ This XML mixes are designed to be used with MuOS and the provided transparency m
   <img src="samples/simple-box.png">
 
   simple-box.xml
+
+  <img src="samples/simple-box-shadow.png">
+
+  simple-box-shadow.xml
 </kbd>
 
 
