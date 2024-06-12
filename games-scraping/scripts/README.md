@@ -1,5 +1,7 @@
 # Script to scrape multiple systems at once from Skycraper
 
+The Skyscraper CLI options are defined here : https://gemba.github.io/skyscraper/CLIHELP/. One may also use the `config.ini` file to setup how the program runs : https://gemba.github.io/skyscraper/CONFIGINI/
+
 ## Prerequisites
 
 The following examples are drawn from an Unbuntu virtual machine under Windows 11, with all the files on my `D:` drive
