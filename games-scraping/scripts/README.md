@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-//The following examples are drawn from an Unbuntu virtual machine under Windows 11, with all the files on my `D:` drive//
+The following examples are drawn from an Unbuntu virtual machine under Windows 11, with all the files on my `D:` drive
 
 1. A folder with ROMS organised by gaming systems subfolders
 ```
