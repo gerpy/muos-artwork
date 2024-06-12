@@ -2,7 +2,7 @@
 
 These masks are 640x480. The gradient starts at `x=320` (middle) and ends at `x=400` : 100% transparent before 320 and 100% plain after 400. The middle of the gradient is at `x=360`.
 
-The PNG files must sit in your `~/.skyscraper/ressources` folder. You may also use subfolders, but then you should adapt the XML mix.
+The PNG files must sit in your `~/.skyscraper/resources` folder. In Linux, `~` stands for home. So the `.skyrcraper` folder with `resource` sits at you user home folder. If you put the `.png` masks elsewhere, the covers won't be generated. You may also use subfolders, but then you should adapt the XML mix.
 
 ```
 pierre@Legion:~$ ls .skyscraper/resources/
