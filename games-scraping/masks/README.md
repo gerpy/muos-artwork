@@ -13,8 +13,7 @@ frameexample.png  muos-dithering-gray.png  muos-grain-high.png       muos-halfto
 
 The available masks are the following :
 
-  - `muos-gradient-soft.png` is a greyscale gradient without any king of dithering. It is versy soft but may lead to banding artifacts
-  - `muos-gradient-dither.png` is the same as the previous one, but with Photoshop's super mild dithering 
+  - `muos-gradient-soft.png` is a greyscale gradient. It is versy soft but may lead to banding artifacts when used with Skyscraper.
   - `muos-dithering-bw.png` is a retro 2 colors dithering with a late 80's look 
   - `muos-dithering-gray.png` is a retro grayscale dithering with a 90's look
   - `muos-halftone-dots.png` is a vintage dotted halftone dithering
